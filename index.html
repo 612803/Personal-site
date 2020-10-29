@@ -2,26 +2,50 @@
 <html>
      <head>
         <meta charset="utf-8">
+<link href="style.css" rel="stylesheet" type="text/css"/>
+
         <style >
-        body {background-image: "4dd28d8ec0cf7100ea3150a0cd1ad0eef98822c9-1575184041.png")};
 
         </style>
         <title>Personal Site</title>
      </head>
 
+
        <body>
+
+         </style>
           <fieldset>
             <legend><h1>Іван Гарбуз</h1></legend>
           <p>Дата народження: 31/03/2002</p>
 
+
+
           <details>
           <summary><b>Коротка біографія</b></summary>
-          <em>Я, Гарбуз Іван Сергійович ,народився 31 березня 2002 року в місті Луганськ.<br>
+          <em><hr/>
+
+            <hr class="hr-circle">
+
+            <style>
+            .hr-circle {
+                margin: 20px 0;
+                padding: 0;
+                border: none;
+                border-width: 0 0 5px;
+                border-style: solid;
+                border-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2 1" width="8" height="4"><circle fill="orange" cx="1" cy="0.5" r="0.5"></circle></svg>') 0 0 100% repeat;
+                box-sizing: border-box;
+                color: orange;
+                height: 10px;
+                width: 100%;
+            }
+            </style>
+          </hr>Я, Гарбуз Іван Сергійович ,народився 31 березня 2002 року в місті Луганськ.<br>
           У 2008 р. вступив до першого класу загальноосвітньої школи № 2 міста Щастя.<br>
           У 2019 р. закінчив 11 класів ЗОШ № 2 міста Щастя.<br>
           У 2019 р. вступив у <a href ="https://nau.edu.ua/">Національний авіаційний університет</a> м. Київ, де навчаюсь на теперішній
           час.<br>
-          Майбутня спеціальність: „Інженерія програмного забезпечення”.<br></em>
+          Майбутня спеціальність: „Інженерія програмного забезпечення”.<br></hr></em>
         </details>
 
         <details>
@@ -60,7 +84,12 @@
 
              </form>
              </details>
-              <a href="about.html">Детальніше</a>
+
+
+              <form action="about.html" target="_blank">
+
+                <button>Детальніше</button>
+               </form>
 
        </details>
           </fieldset>
