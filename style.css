@@ -7,10 +7,12 @@ color: red;
 summary{
 color: #808080;
 
+
 }
 
 #tt{
 background-color:#F0F8FF;
+
 }
 
 body{
@@ -34,12 +36,26 @@ button:hover{
 transform: scale(1.2);
 
 }
-
-h3{
+/*большая специфичность*/
+h3.title{
   font-family: arial;
+  color: black;
+}
+/*меньшая специфичность*/
+h3
+{
+  color: blue;
 }
 
 #qwe {
   border: 2px solid #A9A9A9;
+
+}
+
+.light-blue{
+  font-weight: lighter;
+  color: blue;
+  text-decoration: underline;
+  font-weight: 600
 
 }
