@@ -49,3 +49,33 @@ header h1 {
     background-attachment: scroll;
   }
 }
+
+
+.Navbar {
+  background-color: black;
+  display: flex;
+  padding: 16px;
+  font-family: sans-serif;
+  color: white;
+
+}
+.Navbar__Link {
+  padding-right: 30px;
+
+}
+.Navbar__Items {
+  display: flex;
+}
+.Navbar__Items--right {
+  margin-left:auto;
+}
+.Navbar__Link-toggle {
+  display: none;
+
+}
+.link{
+
+  text-decoration: none;
+    color:white
+}
+
