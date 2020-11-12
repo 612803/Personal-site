@@ -1,0 +1,90 @@
+a{
+color: black !important;
+color: red;
+}
+
+
+summary{
+color: #808080;
+
+
+}
+
+#tt{
+background-color:#F0F8FF;
+
+}
+
+body{
+  background-image: url(https://raw.githubusercontent.com/612803/Personal-site/main/4dd28d8ec0cf7100ea3150a0cd1ad0eef98822c9-1575184041.png);
+}
+
+button:hover{
+  text-decoration: none;
+  outline: none;
+  display: inline-block;
+  margin: 10px 20px;
+  padding: 10px 30px;
+  position: relative;
+  border: 2px solid black;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  transition: .4s;
+  transform: scale(1.1);
+  -webkit-transform: scale(1.2);
+-ms-transform: scale(1.2);
+transform: scale(1.2);
+
+}
+/*большая специфичность*/
+h3.title{
+  font-family: arial;
+  color: black;
+}
+/*меньшая специфичность*/
+h3
+{
+  color: blue;
+}
+
+#qwe {
+  border: 2px solid #A9A9A9;
+
+}
+
+.light-blue{
+  font-weight: lighter;
+  color: blue;
+  text-decoration: underline;
+  font-weight: 600
+
+}
+
+
+.Navbar {
+  background-color: #DCDCDC;
+  display: flex;
+  padding: 16px;
+  font-family: sans-serif;
+  color: black;
+
+}
+.Navbar__Link {
+  padding-right: 30px;
+
+}
+.Navbar__Items {
+  display: flex;
+}
+.Navbar__Items--right {
+  margin-left:auto;
+}
+.Navbar__Link-toggle {
+  display: none;
+
+}
+.link{
+
+  text-decoration: none;
+    color:black
+}

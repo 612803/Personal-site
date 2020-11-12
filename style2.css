@@ -1,0 +1,138 @@
+.flex-container {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+
+
+}
+
+.Navbar{
+  height:75px;
+
+
+
+
+}
+
+.Header{
+
+  height:400px;
+  font-size:100px;
+  color:white;
+  margin-top:65px;
+margin-left:630px;
+  font-family: 'Righteous', cursive;
+
+
+
+}
+
+.Main section{
+  height:500px;
+
+  margin-top:75px;
+  margin-bottom:235px;
+  margin-left:100px;
+  margin-right:100px;
+
+
+
+
+}
+
+.PreFooter{
+
+  height:40px;
+  background-color:silver;
+  text-align: center;
+    font-family: Verdana, Arial, Helvetica, sans-serif
+}
+
+.Footer{
+  height:30px;
+  background-color:black;
+  color:silver;
+  text-align: center;
+  padding:45px
+
+}
+
+.Yellowbox{
+
+  height:200px;
+   width:50%;
+ margin-left:330px;
+  text-align: center;
+
+    justify-content: center;
+
+}
+
+.Orangebox{
+ display: flex;
+ justify-content: space-between;
+
+
+
+
+
+
+}
+.Orangebox1,.Orangebox2{
+
+  height:225px;
+  width:48%;
+  text-align: center;
+
+
+}
+
+.bi{
+   height:475px;
+   background-image: url(https://github.com/612803/Personal-site/blob/main/DdJI_0589_europeansquare_skyandmethod.com_@2x.jpg?raw=true)
+}
+
+.Navbar {
+  background-color: ;
+  display: flex;
+  padding: 16px;
+  font-family: sans-serif;
+
+
+}
+.Navbar__Link {
+  padding-right: 40px;
+
+}
+.Navbar__Items {
+  display: flex;
+}
+
+
+}
+.Navbar__Link-toggle {
+  display: none;
+
+}
+.link{
+
+  text-decoration: none;
+    color:white
+
+
+}
+
+
+.ll{
+
+  text-decoration: none;
+    color:black;
+   margin: 1em 0 0.5em 0;
+    color: #343434;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 40px;
+
+
+
+}
